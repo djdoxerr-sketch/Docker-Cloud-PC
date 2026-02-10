@@ -57,7 +57,7 @@
             <HTTPSRule action="allow" port="443" protocol="TCP" />
         </Firewall>
         <Authentication>
-            <VNCPassword>1unblok</VNCPassword>
+            <VNCPassword>thycopy</VNCPassword>
             <AdminPassword>NOPE</AdminPassword>
         </Authentication>
     </Security>
@@ -86,3 +86,4 @@
     </Logging>
 
 </CloudPCConfiguration>
+
