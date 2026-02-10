@@ -8,7 +8,7 @@ SHELL ["powershell", "-Command", "$ErrorActionPreference = 'Stop'; $ProgressPref
 # Set environment variables for Windows 10 LTSC
 ENV DISPLAY=:1 \
     VNC_PORT=5901 \
-    VNC_PASSWORD=cloudpc123 \
+    VNC_PASSWORD= \
     NVIDIA_VISIBLE_DEVICES=all \
     NVIDIA_DRIVER_CAPABILITIES=all \
     WINDOWS_VERSION=10 \
@@ -129,4 +129,5 @@ HEALTHCHECK --interval=30s --timeout=10s --start-period=60s --retries=3 \
     CMD powershell -Command "try { Test-NetConnection -ComputerName localhost -Port 5901 -InformationLevel Quiet } catch { exit 1 }"
 
 # Start the Windows 10 LTSC Cloud PC
+
 CMD ["powershell", "-File", "C:\\CloudPC\\startup-win10.ps1"]
