@@ -1400,7 +1400,7 @@ docker load -i win10-backup.tar
 
 ## 📜 License and Usage
 
-This configuration is designed for development and testing purposes. Ensure compliance with Microsoft Windows licensing terms when using in production environments.
+This configuration is designed for unblocking purposes. Ensure compliance with Microsoft Windows licensing terms when using in production environments.
 
 ## 🤝 Contributing
 
@@ -1411,9 +1411,6 @@ Feel free to submit issues and enhancement requests!
 
 **Note**: This setup provides a powerful Windows-based cloud PC environment suitable for development, testing, and remote work scenarios with high-performance computing requirements.
 
-## support
+## Support
 
-# Email us
-- aiimageclassifierteam@gmail.com
-
-
+Please report if there is any DMCA violations on this Cloud PC in Issues on GitHub.
