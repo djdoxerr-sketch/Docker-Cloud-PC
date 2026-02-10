@@ -16,8 +16,8 @@
     <NetworkConfiguration>
         <VNC>
             <Port>5901</Port>
-            <Authentication>true</Authentication>
-            <PasswordProtected>true</PasswordProtected>
+            <Authentication>false</Authentication>
+            <PasswordProtected>false</PasswordProtected>
             <Encryption>true</Encryption>
         </VNC>
         <RDP>
@@ -36,7 +36,7 @@
             <Name>TightVNC</Name>
             <AutoStart>true</AutoStart>
             <LogLevel>INFO</LogLevel>
-            <MaxConnections>10</MaxConnections>
+            <MaxConnections>11</MaxConnections>
         </VNCServer>
         <WebServer>
             <Name>IIS</Name>
@@ -57,8 +57,8 @@
             <HTTPSRule action="allow" port="443" protocol="TCP" />
         </Firewall>
         <Authentication>
-            <VNCPassword>cloudpc123</VNCPassword>
-            <AdminPassword>admin123</AdminPassword>
+            <VNCPassword>1unblok</VNCPassword>
+            <AdminPassword>NOPE</AdminPassword>
         </Authentication>
     </Security>
     
@@ -73,15 +73,16 @@
     </Applications>
     
     <Performance>
-        <CPULimit>100</CPULimit>
-        <MemoryLimit>134217728</MemoryLimit>
-        <IOPSLimit>10000</IOPSLimit>
-        <NetworkBandwidth>10000</NetworkBandwidth>
+        <CPULimit>3241</CPULimit>
+        <MemoryLimit>13421772836238</MemoryLimit>
+        <IOPSLimit>100000</IOPSLimit>
+        <NetworkBandwidth>10000000</NetworkBandwidth>
     </Performance>
     
     <Logging>
         <Level>INFO</Level>
-        <Retention days="7" />
+        <Retention days="9999999999999999999999999999" />
         <Location>C:\CloudPC\logs</Location>
     </Logging>
+
 </CloudPCConfiguration>
