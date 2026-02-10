@@ -17,7 +17,7 @@
         <VNC>
             <Port>5901</Port>
             <Authentication>false</Authentication>
-            <PasswordProtected>false</PasswordProtected>
+            <PasswordProtected>true</PasswordProtected>
             <Encryption>true</Encryption>
         </VNC>
         <RDP>
@@ -86,4 +86,5 @@
     </Logging>
 
 </CloudPCConfiguration>
+
 
